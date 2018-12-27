@@ -16,4 +16,9 @@ public class HelloController {
     public String sayHello(){
         return "hello spring boot";
     }
+
+    @GetMapping
+    public String jenkins(){
+        return "git jenkins";
+    }
 }
