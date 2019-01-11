@@ -19,6 +19,6 @@ public class HelloController {
 
     @GetMapping("/jenkins")
     public String jenkins(){
-        return "git jenkins";
+        return "git jenkins  gf";
     }
 }
